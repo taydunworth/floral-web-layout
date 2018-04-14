@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        <img src="/images/about.jpg" className="about-image" alt="About Image"/>
+        <img src="/images/about.jpg" className="about-image" alt="About"/>
         <div className="about-copy">
           <h2>About.</h2>
           <p>
