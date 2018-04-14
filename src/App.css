@@ -4,8 +4,14 @@ body {
   font-size: 16px;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Rozha One', serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3.4em;
+  margin: 0;
 }
 
 .nav {
@@ -48,8 +54,26 @@ h1 {
 .hero h1 {
   font-size: 6em;
   line-height: 1em;
-  text-transform: uppercase;
   text-align: right;
   padding-right: 60px;
   margin: 0;
+}
+
+.about {
+  width: 95%;
+  margin: 0px auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about img {
+  width: 30%;
+  height: 30%;
+}
+
+.about .about-copy {
+  width: 60%;
+  padding: 30px;
 }
