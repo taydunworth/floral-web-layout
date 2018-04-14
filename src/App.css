@@ -39,7 +39,7 @@ h1 {
   align-items: center;
   margin: 0px auto;
   margin-top: 30px;
-  background-image: url("./images/floralhero.jpg");
+  background-image: url("/images/floralhero.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
