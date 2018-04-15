@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import Instagram from '../images/instagram.svg';
+import Pinterest from '../images/pinterest.svg';
+import LinkedIn from '../images/linkedin.svg';
+import Twitter from '../images/twitter.svg';
+
 
 class Footer extends Component {
   render() {
@@ -14,11 +19,11 @@ class Footer extends Component {
         </div>
         <div className="social">
           <ul>
-            <li><a href="https://placeholder.com"><img src="http://via.placeholder.com/30x30" /></a></li>
-            <li><a href="https://placeholder.com"><img src="http://via.placeholder.com/30x30" /></a></li>
-            <li><a href="https://placeholder.com"><img src="http://via.placeholder.com/30x30" /></a></li>
-            <li><a href="https://placeholder.com"><img src="http://via.placeholder.com/30x30" /></a></li>
-        </ul>
+            <li><a href="https://pinterest.com"><img src={Pinterest} /></a></li>
+            <li><a href="https://twitter.com"><img src={Twitter} /></a></li>
+            <li><a href="https://linkedin.com"><img src={LinkedIn} /></a></li>
+            <li><a href="https://instagram.com"><img src={Instagram} /></a></li>
+          </ul>
         </div>
       </div>
     );

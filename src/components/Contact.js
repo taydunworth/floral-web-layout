@@ -11,7 +11,7 @@ class Contact extends Component {
               <input type="text" className="one-half" placeholder="First Name" />
               <input type="text" className="one-half" placeholder="Last Name" />
             </div>
-            <input type="text" className="full" placeholder="Email" />
+            <input type="text" className="full" placeholder="Email Address" />
             <input type="text" className="full" placeholder="Subject" />
             <textarea placeholder="Message"></textarea>
           </div>

@@ -86,7 +86,7 @@ h2 {
   align-items: center;
 }
 
-.about img {
+.about .about-image {
   width: 30%;
   height: 30%;
 }
@@ -94,6 +94,15 @@ h2 {
 .about .about-copy {
   width: 60%;
   padding: 30px;
+}
+
+.about .social ul {
+  padding: 0;
+  margin-top: 30px;
+}
+
+.about .social ul li img {
+  padding: 0 10px 0 0;
 }
 
 /* Contact */
@@ -201,6 +210,7 @@ h2 {
 
 .social ul li a img {
   padding: 0 5px;
+  height: 30px;
 }
 
 .social ul li:nth-child(4) {

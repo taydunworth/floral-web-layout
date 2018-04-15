@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Instagram from '../images/instagram.svg';
+import Pinterest from '../images/pinterest.svg';
+import LinkedIn from '../images/linkedin.svg';
+import Twitter from '../images/twitter.svg';
 
 class About extends Component {
   render() {
@@ -19,6 +23,14 @@ class About extends Component {
             ipsum. In a volutpat tortor, et ultrices libero. Phasellus at
             tincidunt massa, a semper nulla.
           </p>
+          <div className="social">
+            <ul>
+              <li><a href="https://pinterest.com"><img src={Pinterest} /></a></li>
+              <li><a href="https://twitter.com"><img src={Twitter} /></a></li>
+              <li><a href="https://linkedin.com"><img src={LinkedIn} /></a></li>
+              <li><a href="https://instagram.com"><img src={Instagram} /></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     );
