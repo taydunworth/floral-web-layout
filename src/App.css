@@ -4,7 +4,7 @@ body {
   font-size: 16px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Rozha One', serif;
   text-transform: uppercase;
 }
@@ -14,7 +14,7 @@ h2 {
   margin: 0;
 }
 
-.nav {
+.header .nav {
   position: fixed;
   width: 20%;
   background-color: #272727;
@@ -76,4 +76,43 @@ h2 {
 .about .about-copy {
   width: 60%;
   padding: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  width: 95%;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+.footer h3 {
+  width: 25%;
+  color: #FFF;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0 10px;
+  line-height: 1em;
+}
+
+.footer .nav {
+  width: 20%;
+  padding: 15px 40px 15px 3px;
+}
+
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+  list-style-type: none;
+}
+
+.social ul li a img {
+  padding: 0 10px;
+}
+
+.social ul li a img:last-of-type {
+  padding-right: 30px;
 }
