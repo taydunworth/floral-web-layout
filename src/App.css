@@ -1,3 +1,5 @@
+/* General */
+
 @font-face {
     font-family: 'butlerbold';
     src: url('/fonts/butler_bold-webfont.woff2') format('woff2'),
@@ -21,6 +23,8 @@ h2 {
   font-size: 3.4em;
   margin: 0;
 }
+
+/* Header */
 
 .header .nav {
   position: fixed;
@@ -47,6 +51,8 @@ h2 {
   text-transform: uppercase;
 }
 
+/* Hero */
+
 .hero {
   width: 95%;
   height: 90vh;
@@ -69,6 +75,8 @@ h2 {
   margin: 0;
 }
 
+/* About */
+
 .about {
   width: 95%;
   margin: 0px auto;
@@ -88,6 +96,42 @@ h2 {
   padding: 30px;
 }
 
+/* Contact */
+
+.contact {
+  width: 95%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .left {
+  width: 50%;
+  flex-grow: 2;
+}
+
+.contact .right {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.contact .right img {
+  width: 70%;
+  padding-bottom: 30px;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box .one-half {
+  width: 50%;
+  display: inline;
+}
+
+/* Footer */
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -96,6 +140,7 @@ h2 {
   width: 95%;
   margin: 0px auto;
   margin-bottom: 30px;
+  border-top: 8px solid #F6CCBA;
 }
 
 .footer h3 {
