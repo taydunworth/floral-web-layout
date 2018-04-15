@@ -19,10 +19,10 @@ class Footer extends Component {
         </div>
         <div className="social">
           <ul>
-            <li><a href="https://pinterest.com"><img src={Pinterest} /></a></li>
-            <li><a href="https://twitter.com"><img src={Twitter} /></a></li>
-            <li><a href="https://linkedin.com"><img src={LinkedIn} /></a></li>
-            <li><a href="https://instagram.com"><img src={Instagram} /></a></li>
+            <li><a href="https://pinterest.com"><img src={Pinterest} alt="Pinterest" /></a></li>
+            <li><a href="https://twitter.com"><img src={Twitter} alt="Twitter" /></a></li>
+            <li><a href="https://linkedin.com"><img src={LinkedIn} alt="LinkedIn" /></a></li>
+            <li><a href="https://instagram.com"><img src={Instagram} alt="Instagram" /></a></li>
           </ul>
         </div>
       </div>

@@ -22,7 +22,9 @@ class Work extends Component {
       })
 
     return (
-      <ul>{pieces}</ul>
+      <div classname="work" id="Work">
+        <ul>{pieces}</ul>
+      </div>
     );
   }
 }
