@@ -14,7 +14,7 @@ body {
   font-size: 16px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, button {
   font-family: 'butlerbold', serif;
   text-transform: uppercase;
 }
@@ -103,31 +103,66 @@ h2 {
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
+  padding: 30px 0;
 }
 
 .contact .left {
-  width: 50%;
   flex-grow: 2;
 }
 
 .contact .right {
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
   flex-grow: 1;
+  padding-left: 30px;
 }
 
-.contact .right img {
-  width: 70%;
-  padding-bottom: 30px;
+.contact .right .img-box {
+  width: 100%;
+  margin-bottom: 30px;
+  background-image: url("/images/contact.jpg");
+  background-size: cover;
+  height: 60vh;
+}
+
+.contact .right button {
+  background-color: #F6CCBA;
+  border: none;
+  padding: 10px;
+  font-size: 2em;
+}
+
+.contact .right button:focus, .contact-box input[type="text"], .contact-box textarea {
+  outline: 0;
 }
 
 .contact-box {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
+}
+
+.contact-box input[type="text"], .contact-box textarea {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  padding: 7px;
+  font-family: Monaco, monospace;
+  color: #272727;
+}
+
+.contact-box textarea {
+  height: 35vh;
 }
 
 .contact-box .one-half {
-  width: 50%;
-  display: inline;
+  width: 47%;
+}
+
+.contact .half-row {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Footer */

@@ -7,15 +7,18 @@ class Contact extends Component {
         <div className="left">
           <h2>Contact.</h2>
           <div className="contact-box">
-            <input type="text" className="one-half"/>
-            <input type="text" className="one-half"/>
-            <input type="text" className="full"/>
-            <input type="text" className="full"/>
-            <textarea></textarea>
+            <div className="half-row">
+              <input type="text" className="one-half" placeholder="First Name" />
+              <input type="text" className="one-half" placeholder="Last Name" />
+            </div>
+            <input type="text" className="full" placeholder="Email" />
+            <input type="text" className="full" placeholder="Subject" />
+            <textarea placeholder="Message"></textarea>
           </div>
         </div>
         <div className="right">
-          <img src="/images/contact.jpg" alt="Bouquet" />
+          <div className="img-box"></div>
+          <button>Let's Talk.</button>
         </div>
 
       </div>
