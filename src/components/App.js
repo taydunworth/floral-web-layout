@@ -9,13 +9,14 @@ import '../App.css';
 import Portfolio from "../Portfolio";
 
 class App extends Component {
-  state = {
-    portfolio: {}
-  };
-
-  loadPortfolio = () => {
-    this.setState({ portfolio: Portfolio });
-  };
+  constructor(props) {
+    super(props)
+    this.state = {
+      image: '',
+      name: '',
+      desc: ''
+    }
+  }
 
   render() {
     return (

@@ -1,12 +1,28 @@
 import React, { Component } from 'react';
 
 class Work extends Component {
-  render() {
-    return (
-      <div className="work">
-        <li className="portfolioPiece">
+
+  state = {
+    portfolio: []
+  }
+
+  componentDidMount() {
+    fetch('../Portfolio').then(res => res.json()).then(({ portfolio }) => {
+      this.setState({ portfolio })
+    })
+  }
+
+  render(){
+    let pieces = this.state.portfolio.map(piece => {
+      return (
+        <li key={piece.id}>
+          <p>{piece.name}</p>
         </li>
-      </div>
+        )
+      })
+
+    return (
+      <ul>{pieces}</ul>
     );
   }
 }
