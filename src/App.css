@@ -1,11 +1,19 @@
+@font-face {
+    font-family: 'butlerbold';
+    src: url('/fonts/butler_bold-webfont.woff2') format('woff2'),
+         url('/fonts/butler_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  font-family: 'Space Mono', monospace;
+  font-family: Monaco, monospace;
   color: #272727;
   font-size: 16px;
 }
 
 h1, h2, h3 {
-  font-family: 'Rozha One', serif;
+  font-family: 'butlerbold', serif;
   text-transform: uppercase;
 }
 
