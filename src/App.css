@@ -32,6 +32,8 @@ h2 {
   right: 0;
 }
 
+/* Add transition here for header to expand to width of page with logo in top left on scroll */
+
 .nav ul {
   display: flex;
   justify-content: space-between;
@@ -97,7 +99,7 @@ h2 {
 }
 
 .footer h3 {
-  width: 25%;
+  width: 20%;
   color: #FFF;
   font-size: 1.3em;
   margin: 0;
@@ -113,14 +115,14 @@ h2 {
 .social ul {
   display: flex;
   justify-content: space-between;
-  width: 33%;
+  width: 20%;
   list-style-type: none;
 }
 
 .social ul li a img {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
-.social ul li a img:last-of-type {
-  padding-right: 30px;
+.social ul li:nth-child(4) {
+  padding-right: 10px;
 }
