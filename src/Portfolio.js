@@ -1,4 +1,4 @@
-const portfolio = {
+const portfolio = [
   portfolio1: {
     name: "Lorem Ipsum",
     image: "/images/floralwork1.jpg",
@@ -34,6 +34,6 @@ const portfolio = {
     image: "/images/floralwork6.jpg",
     desc: "Nunc mauris ipsum, posuere eget ullamcorper a, pretium pharetra sem."
   }
-};
+];
 
 export default portfolio;

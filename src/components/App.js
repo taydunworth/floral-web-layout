@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Header from "./Header";
 import Hero from "./Hero";
 import About from "./About";
-// import Work from "./Work";
-// import Portfolio from "../Portfolio";
+import Work from "./Work";
+import Portfolio from "../Portfolio";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import '../App.css';
@@ -25,7 +25,7 @@ class App extends Component {
         <Header />
         <Hero />
         <About />
-        {/* <Work /> */}
+        <Work />
         <Contact />
         <Footer />
       </div>

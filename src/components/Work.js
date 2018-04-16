@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Work extends Component {
 
   state = {
-    portfolio: []
+    portfolio: {}
   }
 
   componentDidMount() {
