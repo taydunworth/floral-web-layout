@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
+import portfolios from '../Portfolio';
 
 class Work extends Component {
-
-  state = {
-    portfolio: {}
+  constructor(props) {
+    super(props)
+    this.state = {
+      portfolios: []
+    }
   }
 
-  componentDidMount() {
-    fetch('../Portfolio').then(res => res.json()).then(({ portfolio }) => {
-      this.setState({ portfolio })
-    })
+
+  componentWillMount() {
+    this.setState({ portfolios })
   }
 
   render(){
-    let pieces = this.state.portfolio.map(piece => {
+    let pieces = this.state.portfolios.map(piece => {
       return (
         <li key={piece.id}>
           <p>{piece.name}</p>
