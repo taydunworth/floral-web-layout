@@ -3,7 +3,6 @@ import Header from "./Header";
 import Hero from "./Hero";
 import About from "./About";
 import Work from "./Work";
-import Portfolio from "../Portfolio";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import '../App.css';

@@ -36,11 +36,9 @@ h2 {
   right: 0;
 }
 
-.animateScroll .header .nav {
+.fullNav .header .nav {
   width: 100%;
 }
-
-/* Add transition here for header to expand to width of page with logo in top left on scroll */
 
 .nav ul {
   display: flex;

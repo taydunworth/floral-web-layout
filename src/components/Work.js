@@ -9,7 +9,6 @@ class Work extends Component {
     }
   }
 
-
   componentWillMount() {
     this.setState({ portfolios })
   }
