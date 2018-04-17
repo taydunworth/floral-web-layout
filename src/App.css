@@ -109,6 +109,31 @@ h2 {
   padding: 0 10px 0 0;
 }
 
+/* Work */
+
+.work ul {
+  display: flex;
+  max-width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.portfolio-piece {
+  margin: 0;
+  width: 30%;
+}
+
+.portfolio-piece li {
+  width: 30%;
+  margin: 0;
+}
+
+.portfolio-piece img {
+  width: 70%;
+}
+
 /* Contact */
 
 .contact {

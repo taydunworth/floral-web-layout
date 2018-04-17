@@ -18,13 +18,15 @@ class Work extends Component {
     let pieces = this.state.portfolios.map(piece => {
       return (
         <li key={piece.id}>
-          <p>{piece.name}</p>
+          <div className="portfolio-piece">
+            <img src={piece.image} alt={piece.name} />
+          </div>
         </li>
         )
       })
 
     return (
-      <div classname="work" id="Work">
+      <div className="work" id="Work">
         <ul>{pieces}</ul>
       </div>
     );
