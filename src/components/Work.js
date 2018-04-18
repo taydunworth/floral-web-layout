@@ -26,6 +26,7 @@ class Work extends Component {
 
     return (
       <div className="work" id="Work">
+        <h2>Work.</h2>
         <ul>{pieces}</ul>
       </div>
     );
